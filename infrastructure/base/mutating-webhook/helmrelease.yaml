@@ -6,7 +6,7 @@ metadata:
 spec:
   releaseName: mutating-webhook
   interval: 5m
-  targetNamespace: mutating-webhook
+  targetNamespace: mutating-webhook-dev
   chart:
     spec:
       chart: ./helm-chart
