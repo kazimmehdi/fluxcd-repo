@@ -4,6 +4,8 @@ metadata:
   name: mutating-webhook
   namespace: flux-system
 spec:
+  secretRef:
+    name: gh-auth
   interval: 1m
   ref:
     branch: main
