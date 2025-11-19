@@ -12,7 +12,7 @@ spec:
       chart: ./helm-chart
       sourceRef:
         kind: GitRepository
-        name: mutating-webhook
+        name: mutating-webhook-dev
         namespace: flux-system
   install:
     remediation:
