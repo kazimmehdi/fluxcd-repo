@@ -9,4 +9,4 @@ spec:
   interval: 1m
   ref:
     branch: main
-  url: ssh://git@github.com:kazimmehdi/mutating-webhook.git
+  url: https://git@github.com:kazimmehdi/mutating-webhook.git
