@@ -8,7 +8,7 @@ apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
   name: mutating-webhook
-  namespace: flux-system
+  namespace: mutating-webhook
 spec:
   releaseName: mutating-webhook
   interval: 5m
