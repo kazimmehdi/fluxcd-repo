@@ -9,7 +9,7 @@ spec:
     replicaCount: 1
 
     image:
-      repository: docker.io/library/mutating-webhook
+      repository: docker.io/kazimmehdi/klab:1.0.2
       pullPolicy: IfNotPresent
       tag: "1.0.2"
 
