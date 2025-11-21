@@ -9,7 +9,7 @@ spec:
     replicaCount: 1
 
     image:
-      repository: docker.io/kazimmehdi/klab:1.0.2
+      repository: docker.io/kazimmehdi/klab
       pullPolicy: IfNotPresent
       tag: "1.0.2"
 
