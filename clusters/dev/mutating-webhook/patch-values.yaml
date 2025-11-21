@@ -13,7 +13,8 @@ spec:
       pullPolicy: IfNotPresent
       tag: "1.0.2"
 
-    imagePullSecrets: []
+    imagePullSecrets: 
+    - name: docker-registry-secret
     nameOverride: ""
     fullnameOverride: ""
 
